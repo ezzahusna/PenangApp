@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "800762170797",
+    "project_id": "penang-travel-app",
+    "storage_bucket": "penang-travel-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800762170797:android:4e475abee18adf50a3a524",
+        "android_client_info": {
+          "package_name": "com.example.penangapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800762170797-seur02trqbak4i309mgtfkvj1tvbuu8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAieZ7dCODPFw9EDrVBv8y_rrlspTnDtTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800762170797-seur02trqbak4i309mgtfkvj1tvbuu8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800762170797:android:8f24e3d2ac8aa9fea3a524",
+        "android_client_info": {
+          "package_name": "com.example.penangapp1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800762170797-irdnpilem7q3rgcdn3l5r8iqko6fai5t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.penangapp1",
+            "certificate_hash": "3f8b69bd7e3f74ca3a50cf5b1bd759c249046c3e"
+          }
+        },
+        {
+          "client_id": "800762170797-seur02trqbak4i309mgtfkvj1tvbuu8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAieZ7dCODPFw9EDrVBv8y_rrlspTnDtTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800762170797-seur02trqbak4i309mgtfkvj1tvbuu8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

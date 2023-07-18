@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wsrental">
+
+    <ImageView
+        android:id="@+id/header_background"
+        android:layout_width="412dp"
+        android:layout_height="291dp"
+        android:scaleType="fitXY"
+        android:transitionName="background_image_transition"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bigthumb"
+        tools:targetApi="lollipop" />
+
+    <ImageView
+        android:id="@+id/back_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        app:layout_constraintStart_toStartOf="@+id/header_background"
+        app:layout_constraintTop_toTopOf="@+id/header_background"
+        android:src="@drawable/ic_back_arrow" />
+
+    <ScrollView
+        android:id="@+id/third_scrillview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/third_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:fontFamily="@font/open_sans_extra_bold"
+                android:text="WS Tours International Sdn. Bhd."
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/about_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:alpha="0.5"
+                android:fontFamily="@font/open_sans_regular"
+                android:text="We are FESTIVE TRAVEL (WS TOURS) are Company in Penang that helps solve the transportation problems faced by domestic and foreign tourists, individuals, private companies and government agencies by providing user-friendly rental cars, PROMOTION PRICES PROMOTION, clean, comfortable and safe. Most recently, the services we provide are in the state of Penang and around. If you are interested, please contact us at 24 hours"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/venue_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="Contact Info"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/venue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:alpha="0.5"
+                android:drawableStart="@drawable/ic_baseline_location_city_24"
+                android:drawableLeft="@drawable/ic_baseline_location_city_24"
+                android:fontFamily="@font/open_sans_regular"
+                android:text="      77-01, 12, Medan Mayang Pasir, Bayan Baru, 11950 Bayan Lepas, Penang"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:alpha="0.5"
+                android:drawableStart="@drawable/ic_baseline_phone_forwarded_24"
+                android:drawableLeft="@drawable/ic_baseline_phone_forwarded_24"
+                android:fontFamily="@font/open_sans_regular"
+                android:text="      012-433 7114"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp" />
+
+
+
+
+            <Button
+                android:id="@+id/roadmap_button"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/open_sans_extra_bold"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="Find Out More"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
